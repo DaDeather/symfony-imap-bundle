@@ -1,0 +1,9 @@
+services:
+    dadadev.imap:
+        class: DaDaDev\ImapBundle\Service\Imap
+        arguments: ["%dadadev.imap.connections%"]
+        public: true
+
+    DaDaDev\ImapBundle\Service\Imap:
+        alias: dadadev.imap
+        public: true
