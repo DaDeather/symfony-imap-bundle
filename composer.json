@@ -1,0 +1,28 @@
+{
+    "name": "dadadev/imap-bundle",
+    "type": "symfony-bundle",
+    "description": "PHP-IMAP Symfony integration.",
+    "keywords": ["imap", "php-imap", "symfony", "bundle"],
+    "homepage": "https://dadadev.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ismail Özgün Turan",
+            "email": "oezguen.turan@dadadev.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "symfony/framework-bundle": "~4.0|~5.0|~6.0",
+        "symfony/dependency-injection": "~4.0|~5.0|~6.0",
+        "php-imap/php-imap": "~3.0|~4.0"
+    },
+    "autoload": {
+        "psr-4": { "DaDaDev\\ImapBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
